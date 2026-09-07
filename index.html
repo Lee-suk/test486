@@ -1,4 +1,4 @@
-<!-- package 속성을 제거하여 플레이스토어 강제 이동을 방지한 최종 검증 코드 -->
-<a href="intent:#Intent;component=com.golfzon.gcounty.qa/com.golfzon.gcounty.feature.webview.HybridAppActivity;S.url=https%3A%2F%2Fcmtinfo.co.kr;end">
-    QA 앱 브라우저 유입 테스트
+<!-- package를 넣어 Android Switch 창을 막고, browser_fallback_url로 플레이스토어 이동을 차단 -->
+<a href="intent:#Intent;component=com.golfzon.gcounty.qa/com.golfzon.gcounty.feature.webview.HybridAppActivity;package=com.golfzon.gcounty.qa;S.url=https%3A%2F%2Fcmtinfo.co.kr;S.browser_fallback_url=javascript:void(0);end">
+    [최종 우회] QA 앱 다이렉트 실행 테스트
 </a>
